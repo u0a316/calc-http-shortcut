@@ -1,4 +1,4 @@
-const expression = prompt("Masukkan ekspresi matematika:");
+const expression = prompt("Input ekspresion math:");
 const result = sendHttpRequest(
   "https://api.mathjs.org/v4/?expr=" + encodeURIComponent(expression),
   {
